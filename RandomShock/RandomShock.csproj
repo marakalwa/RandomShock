@@ -10,12 +10,20 @@
     <Description>Provides an easy way to configure and send random shocks using the OpenShock API.</Description>
     <Authors>Mara Kalwa</Authors>
     <RepositoryUrl>https://github.com/marakalwa/RandomShock</RepositoryUrl>
+    <PackageLicenseFile>LICENSE-2.0.txt</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="NLog" Version="5.5.0" />
     <PackageReference Include="OpenShock.SDK.CSharp" Version="0.0.35" />
     <PackageReference Include="Tomlyn" Version="0.19.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="licenses\LICENSE-2.0.txt" Link="licenses\LICENSE-2.0.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

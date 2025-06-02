@@ -25,7 +25,7 @@ namespace RandomShock
                 Token = config.ApiToken
             });
 
-            const int period = 500;
+            int period = config.CheckInterval;
             var lastDetection = false;
 
             logger.Info("Random Shock initialized");
