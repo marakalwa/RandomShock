@@ -3,7 +3,7 @@ using Tomlyn;
 
 namespace RandomShock
 {
-    internal class Config
+    public class Config
     {
         private static readonly Random _random = new();
         public string ApiToken { get; set; }
