@@ -9,6 +9,7 @@
     <Title>RandomShock</Title>
     <Description>Provides an easy way to configure and send random shocks using the OpenShock API.</Description>
     <Authors>Mara Kalwa</Authors>
+    <RepositoryUrl>https://github.com/marakalwa/RandomShock</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
