@@ -17,4 +17,4 @@ shockers = ["left_thigh"]
 type = "Shock"
 intensity = 60
 duration = 1
-weight = 1]
+weight = 1
