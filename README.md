@@ -1,6 +1,6 @@
-# ⚡ RandomShop
+# ⚡ RandomShock
 
-**RandomShop** is a .NET (C#) NuGet package that interfaces with the **OpenShock API** to deliver random electric shocks. Designed for novelty applications, behavior conditioning, or just chaotic experimentation, this package lets you schedule or trigger shocks at unpredictable intervals.
+**RandomShock** is a .NET (C#) NuGet package that interfaces with the **OpenShock API** to deliver random electric shocks. Designed for novelty applications, behavior conditioning, or just chaotic experimentation, this package lets you schedule or trigger shocks at unpredictable intervals.
 
 > ⚠️ **Warning:** Use this package with extreme caution. It interacts with hardware that can cause physical discomfort or harm. Not recommended for individuals with health conditions. Use at your own risk.
 
@@ -11,13 +11,13 @@
 Install via NuGet:
 
 ```bash
-dotnet add package RandomShop
+dotnet add package RandomShock
 ```
 
 Or via the Package Manager Console:
 
 ```powershell
-Install-Package RandomShop
+Install-Package RandomShock
 ```
 
 ## 🤝 Contributing
@@ -51,7 +51,7 @@ weight = 1
 ```
 
 ```csharp
-using RandomShop;
+using RandomShock;
 
 RandomShock.Start()
 RandomShockSetDetection(true)
@@ -61,7 +61,7 @@ RandomShockSetDetection(true)
 Because you're curious, reckless, or trying to train yourself not to procrastinate. No judgment. We support creative experimentation.
 
 ## ⚠️ Safety Notice
-RandomShop can trigger real physical devices. Always:
+RandomShock can trigger real physical devices. Always:
 
 - Use with consent
 - Never shock others without explicit agreement
