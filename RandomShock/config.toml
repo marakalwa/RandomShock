@@ -1,0 +1,20 @@
+api_token = ""
+check_interval = 500 # in milliseconds
+
+[shocker.left_thigh]
+uuid = "left"
+[shocker.right_thigh]
+uuid = "right"
+
+[action.weak]
+type = "Shock"
+intensity = 20 # intensity 1-100
+duration = 3 # duration in seconds
+weight = 1
+shockers = ["left_thigh"]
+
+[action.strong]
+type = "Shock"
+intensity = 60
+duration = 1
+weight = 1]
